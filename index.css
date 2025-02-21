@@ -6,14 +6,14 @@
     font-family: 'Hk Grotesk';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/HKGrotesk-Regular.woff') format('woff');
+    src: url('./fonts/OxfordVibes-7OKJK.ttf') format('woff');
 }
 
 @font-face {
     font-family: 'Jost';
     font-style: normal;
     font-weight: 400;
-    src: url('./fonts/Jost-Regular.ttf') format('woff');
+    src: url('./fonts/BalonkuRegular-la1w.otf') format('woff');
 }
 
 * {
@@ -34,8 +34,8 @@
     --line-height-normal: 1.7;
     --line-height-small: 1.2;
 
-    --black: #000;
-    --pink: #ff3258;
+    --black: #0d0d0d;
+    --pink: #3cf72f;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -422,7 +422,7 @@ body:not(.user-is-tabbing) a:focus {
 .header__text p {
     margin: 1.5rem 0 3.5rem;
     max-width: var(--container-medium-width);
-    font-family: 'Jost', sans-serif;
+    font-family: 'Hk Grotesk', sans-serif;
     font-size: var(--font-size-medium);
 }
 
