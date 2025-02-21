@@ -1,6 +1,6 @@
-/* -----------------------------------------
-  Have focus outline only for keyboard users 
- ---------------------------------------- */
+/* -----------------------------------------------
+  Press Tab to Navigate if you don't have a mouse
+ ----------------------------------------------- */
 
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
